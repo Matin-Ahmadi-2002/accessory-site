@@ -31,5 +31,19 @@
         margin: 0 auto;
         padding: 0 10px;
     }
-
+    .menu {
+        padding: 20px;
+    }
+    .menu-icon {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        color: #333;
+        background: white;
+        font-size: 24px;
+        padding: 10px;
+        border-radius: 50%;
+    } 
 }

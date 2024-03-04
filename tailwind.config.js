@@ -14,12 +14,19 @@ module.exports = {
       'lg': {'max': '992px'},
       'md': {'max': '768px'},
       'sm': {'max': '576px'},
+      'ssm': {'max': '450px'},
     },
     extend: {
       colors : {
         "main-color": {
           DEFAULT : "#e0be5f",
         },
+        "nav-color": {
+          DEFAULT : "#bd9933",
+        },
+      },
+      boxShadow : {
+        "navshadow": "0 0px 5px #ddd",
       },
     },
   },
