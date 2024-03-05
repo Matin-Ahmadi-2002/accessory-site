@@ -5,7 +5,7 @@ const backButton = document.querySelector('.back-button');
 menuButton.addEventListener('click', () => {
     menuContainer.style.display = 'flex';
     setTimeout(() => {
-        menuContainer.style.transform = 'translateY(-100vh)';
+        menuContainer.style.transform = 'translateY(-87vh)';
     }, 100);
 });
 
