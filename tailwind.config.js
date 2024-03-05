@@ -29,8 +29,12 @@ module.exports = {
         "navshadow": "0 0px 5px #ddd",
       },
       fontSize : {
-        '7.5xl' : "5.3125rem"
+        '7.5xl' : "5.3125rem",
+        '4.5xl' : "2.75rem"
       },
+      spacing : {
+        '50' : "12.5rem"
+      }
     },
   },
   plugins: [],
