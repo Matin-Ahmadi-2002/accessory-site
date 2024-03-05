@@ -28,6 +28,9 @@ module.exports = {
       boxShadow : {
         "navshadow": "0 0px 5px #ddd",
       },
+      fontSize : {
+        '7.5xl' : "5.3125rem"
+      },
     },
   },
   plugins: [],
