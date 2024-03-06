@@ -34,6 +34,10 @@
         margin: 0 auto;
         padding: 0 10px;
     }
+    .container2{
+        max-width: 1120px;
+        margin: 0 auto;
+    }
     .menu {
         padding: 20px;
     }
