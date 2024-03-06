@@ -26,6 +26,9 @@
 }
 
 @layer components { 
+    body{
+        height: 10000px;
+    }
     .container{
         max-width: 1120px;
         margin: 0 auto;
@@ -46,4 +49,30 @@
         padding: 10px;
         border-radius: 50%;
     } 
+    .owl-theme .owl-nav{
+        display: flex;
+        justify-content: end;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        font-size: 60px;
+        color: rgb(125, 211, 252);
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover{
+        background: 0;
+        color: rgb(125, 211, 252);
+    }    
+    .owl-carousel .owl-nav button.owl-next{
+        font-size: 60px;
+        color: rgb(125, 211, 252);
+    }
+    .owl-carousel .owl-nav button.owl-next:hover{
+        background: 0;
+        color: rgb(125, 211, 252);
+    }    
+}
+
+@layer utilities {
+    .ltr {
+        direction: ltr;
+    }
 }
