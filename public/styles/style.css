@@ -662,6 +662,10 @@ body{
   top: 10rem;
 }
 
+.top-32 {
+  top: 8rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -701,6 +705,10 @@ body{
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .inline-block {
@@ -1032,6 +1040,26 @@ body{
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-sky-400 {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 248 / var(--tw-text-opacity));
+}
+
+.text-sky-800 {
+  --tw-text-opacity: 1;
+  color: rgb(7 89 133 / var(--tw-text-opacity));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 .shadow {
