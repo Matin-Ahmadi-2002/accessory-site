@@ -74,10 +74,10 @@ $('#kid_slider').owlCarousel({
             items:4
         },
         768:{
-            items:5,
+            items:4,
         },
         992:{
-            items:5,
+            items:4,
             loop:false,
         }
     }
