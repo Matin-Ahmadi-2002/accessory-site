@@ -72,11 +72,17 @@
     .owl-carousel .owl-nav button.owl-next:hover{
         background: 0;
         color: rgb(125, 211, 252);
-    }    
+    } 
+    .owl-carousel .owl-stage-outer {
+        padding-bottom: 5px;
+    }   
 }
 
 @layer utilities {
     .ltr {
         direction: ltr;
+    }
+    .rtl {
+        direction: rtl;
     }
 }

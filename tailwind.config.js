@@ -25,9 +25,13 @@ module.exports = {
         "nav-color": {
           DEFAULT : "#bd9933",
         },
+        "star-color": {
+          DEFAULT : "#c38340",
+        },
       },
       boxShadow : {
         "navshadow": "0 0px 5px #ddd",
+        "3xl": "0 0 10px #d0d0d0"
       },
       fontSize : {
         '7.5xl' : "5.3125rem",
