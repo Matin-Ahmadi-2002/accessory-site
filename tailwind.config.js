@@ -15,6 +15,7 @@ module.exports = {
       'md': {'max': '768px'},
       'sm': {'max': '576px'},
       'ssm': {'max': '450px'},
+      'sssm': {'max': '400px'},
     },
     extend: {
       colors : {

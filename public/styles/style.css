@@ -1147,6 +1147,14 @@ body{
     left: 5rem;
   }
 
+  .lg\:left-32 {
+    left: 8rem;
+  }
+
+  .lg\:top-24 {
+    top: 6rem;
+  }
+
   .lg\:top-32 {
     top: 8rem;
   }
@@ -1184,6 +1192,10 @@ body{
     left: 3rem;
   }
 
+  .md\:left-8 {
+    left: 2rem;
+  }
+
   .md\:right-20 {
     right: 5rem;
   }
@@ -1206,6 +1218,10 @@ body{
 }
 
 @media (max-width: 576px) {
+  .sm\:left-8 {
+    left: 2rem;
+  }
+
   .sm\:right-8 {
     right: 2rem;
   }
@@ -1253,6 +1269,10 @@ body{
 }
 
 @media (max-width: 450px) {
+  .ssm\:left-20 {
+    left: 5rem;
+  }
+
   .ssm\:right-4 {
     right: 1rem;
   }
@@ -1261,12 +1281,32 @@ body{
     top: 0.5rem;
   }
 
+  .ssm\:top-6 {
+    top: 1.5rem;
+  }
+
   .ssm\:mb-2 {
     margin-bottom: 0.5rem;
   }
 
   .ssm\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .ssm\:w-2\/5 {
+    width: 40%;
+  }
+
+  .ssm\:w-\[\] {
+    width: ;
+  }
+
+  .ssm\:w-\[55\] {
+    width: 55;
+  }
+
+  .ssm\:w-\[55\%\] {
+    width: 55%;
   }
 
   .ssm\:px-1 {
@@ -1287,5 +1327,19 @@ body{
   .ssm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .sssm\:left-8 {
+    left: 2rem;
+  }
+
+  .sssm\:top-2 {
+    top: 0.5rem;
+  }
+
+  .sssm\:w-\[55\%\] {
+    width: 55%;
   }
 }
