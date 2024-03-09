@@ -711,6 +711,10 @@ body{
   margin-top: 1.25rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -810,6 +814,10 @@ body{
 
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-5 {
@@ -1215,6 +1223,10 @@ body{
   .md\:hidden {
     display: none;
   }
+
+  .md\:gap-4 {
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1232,6 +1244,10 @@ body{
 
   .sm\:top-6 {
     top: 1.5rem;
+  }
+
+  .sm\:mb-12 {
+    margin-bottom: 3rem;
   }
 
   .sm\:h-50 {
@@ -1297,16 +1313,8 @@ body{
     width: 40%;
   }
 
-  .ssm\:w-\[\] {
-    width: ;
-  }
-
-  .ssm\:w-\[55\] {
-    width: 55;
-  }
-
-  .ssm\:w-\[55\%\] {
-    width: 55%;
+  .ssm\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .ssm\:px-1 {
