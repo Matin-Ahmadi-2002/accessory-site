@@ -103,3 +103,24 @@ $('#bestselling_slider').owlCarousel({
         }
     }
 })
+$('#newproduct_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:3
+        },
+        450:{
+            items:4
+        },
+        768:{
+            items:4,
+        },
+        992:{
+            items:5,
+        }
+    }
+})

@@ -1305,6 +1305,10 @@ body{
     top: 4rem;
   }
 
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
