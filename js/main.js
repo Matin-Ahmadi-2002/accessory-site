@@ -124,3 +124,27 @@ $('#newproduct_slider').owlCarousel({
         }
     }
 })
+$('#lastarticles_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+            items:2,
+            loop:false
+        },
+        768:{
+            items:3,
+            loop:false
+        },
+        992:{
+            items:3,
+            loop:false
+        }
+    }
+})

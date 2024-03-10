@@ -29,6 +29,9 @@ module.exports = {
         "star-color": {
           DEFAULT : "#c38340",
         },
+        "button-color": {
+          DEFAULT : "#ccc",
+        },
       },
       boxShadow : {
         "navshadow": "0 0px 5px #ddd",
