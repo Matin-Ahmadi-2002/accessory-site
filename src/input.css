@@ -26,9 +26,6 @@
 }
 
 @layer components { 
-    body{
-        height: 10000px;
-    }
     .container{
         max-width: 1120px;
         margin: 0 auto;
@@ -76,6 +73,22 @@
     .owl-carousel .owl-stage-outer {
         padding-bottom: 5px;
     }   
+    @keyframes border_anim {
+        0%{
+            font-family: iransansLight;
+        }
+        50%{
+            font-family: iransansMedium;
+        }
+        100%{
+            font-family: iransansBold;
+        }
+    }
+    p.animation{
+        animation-name: border_anim;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
 }
 
 @layer utilities {

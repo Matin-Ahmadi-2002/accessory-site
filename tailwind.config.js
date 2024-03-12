@@ -43,7 +43,7 @@ module.exports = {
       },
       spacing : {
         '50' : "12.5rem"
-      }
+      },
     },
   },
   plugins: [],
