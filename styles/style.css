@@ -761,6 +761,18 @@ p.animation{
   margin-top: 1.75rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-\[\] {
+  margin-right: ;
+}
+
+.mr-\[50\%\] {
+  margin-right: 50%;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -894,12 +906,20 @@ p.animation{
   gap: 3rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1393,6 +1413,14 @@ p.animation{
     padding-right: 4rem;
   }
 
+  .xl\:pl-\[\] {
+    padding-left: ;
+  }
+
+  .xl\:pl-\[6\] {
+    padding-left: 6;
+  }
+
   .xl\:pl-\[6\%\] {
     padding-left: 6%;
   }
@@ -1429,6 +1457,10 @@ p.animation{
     margin-bottom: 1.5rem;
   }
 
+  .lg\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
   .lg\:mr-\[30\%\] {
     margin-right: 30%;
   }
@@ -1439,6 +1471,10 @@ p.animation{
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:w-1 {
+    width: 0.25rem;
   }
 
   .lg\:w-\[45\%\] {
@@ -1490,16 +1526,32 @@ p.animation{
     top: 4rem;
   }
 
-  .md\:-mt-56 {
-    margin-top: -14rem;
-  }
-
   .md\:mb-10 {
     margin-bottom: 2.5rem;
   }
 
+  .md\:mt-56 {
+    margin-top: 14rem;
+  }
+
+  .md\:-mt-56 {
+    margin-top: -14rem;
+  }
+
+  .md\:mr-\[50\%\] {
+    margin-right: 50%;
+  }
+
+  .md\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
   .md\:mb-14 {
     margin-bottom: 3.5rem;
+  }
+
+  .md\:mr-\[5\%0\] {
+    margin-right: 5%0;
   }
 
   .md\:mr-\[49\%\] {
@@ -1510,6 +1562,10 @@ p.animation{
     display: block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:grid {
     display: grid;
   }
@@ -1518,12 +1574,28 @@ p.animation{
     display: none;
   }
 
-  .md\:w-\[52\%\] {
-    width: 52%;
-  }
-
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-1 {
+    width: 0.25rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-\[1\/2\] {
+    width: 1/2;
+  }
+
+  .md\:w-\[52\] {
+    width: 52;
+  }
+
+  .md\:w-\[52\%\] {
+    width: 52%;
   }
 
   .md\:grid-cols-2 {
@@ -1538,9 +1610,31 @@ p.animation{
     row-gap: 2rem;
   }
 
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .md\:px-1 {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
+  }
+
+  .md\:pl-\[\] {
+    padding-left: ;
+  }
+
+  .md\:pl-\[6\%\] {
+    padding-left: 6%;
+  }
+
+  .md\:pl-\[5\%\] {
+    padding-left: 5%;
   }
 
   .md\:pl-\[0\%\] {
@@ -1569,12 +1663,28 @@ p.animation{
     margin-bottom: 3rem;
   }
 
-  .sm\:mr-\[16\%\] {
-    margin-right: 16%;
+  .sm\:mr-\[\] {
+    margin-right: ;
+  }
+
+  .sm\:mr-\[30\] {
+    margin-right: 30;
+  }
+
+  .sm\:mr-\[30\%\] {
+    margin-right: 30%;
+  }
+
+  .sm\:mr-\[20\%\] {
+    margin-right: 20%;
   }
 
   .sm\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .sm\:mr-\[16\%\] {
+    margin-right: 16%;
   }
 
   .sm\:block {
@@ -1585,12 +1695,30 @@ p.animation{
     height: 12.5rem;
   }
 
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:w-3\/4 {
     width: 75%;
   }
 
-  .sm\:w-full {
-    width: 100%;
+  .sm\:space-y-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .sm\:space-y-3 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+  }
+
+  .sm\:space-y-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
   }
 
   .sm\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
@@ -1654,6 +1782,10 @@ p.animation{
     margin-bottom: 2rem;
   }
 
+  .ssm\:mr-\[0\] {
+    margin-right: 0;
+  }
+
   .ssm\:mr-\[0\%\] {
     margin-right: 0%;
   }
@@ -1683,6 +1815,18 @@ p.animation{
   .ssm\:px-\[2px\] {
     padding-left: 2px;
     padding-right: 2px;
+  }
+
+  .ssm\:pr-\[3\%\] {
+    padding-right: 3%;
+  }
+
+  .ssm\:pr-\[\%\] {
+    padding-right: %;
+  }
+
+  .ssm\:pr-\[2\%\] {
+    padding-right: 2%;
   }
 
   .ssm\:pr-\[1\%\] {
